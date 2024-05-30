@@ -1,0 +1,62 @@
+*{
+    font-family: "Anton", sans-serif;
+    font-weight: 100px;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-top: 50px;
+    background-color: beige;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+form input, body button{
+    margin: 0 15px;
+    border-radius:5px ;
+}
+
+body button{
+    border: 3px solid black;
+    padding: 0 5px;
+    
+}
+
+form input{
+    border: 2px solid black;
+}
+
+body div a{
+    text-decoration:solid ;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+body .tag-de-elementos{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+body button{
+    size: 10px;
+    display: block;
+}
+
+body .lista-nao-ordenada a ul li{
+    padding-top: 15px;
+}
+
+.completo{
+    text-decoration: line-through;
+}
